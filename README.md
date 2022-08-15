@@ -1,2 +1,3 @@
-# portfolio-site
-Personal portfolio
+# Portfolio Site
+
+Personal portfolio/resume project website.
