@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="personal, portfolio, resume, developer, front end, back end, full stack">
+    <meta name="description" content="My personal portfolio website as a Full Stack Developer">
+    <meta name="author" content="Sarah Collins">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Sarah Collins ¦ Portfolio</title>
+</head>
+<body>
+  <!--Header containing logo and navbar-->
+    <header>
+        <nav id="navbar">
+            <a href="index.html" aria-label="Logo, navigates to index page"><img src="#" alt="Portfolio logo of pirate dog"></a>
+            <ul id="navbar-list">
+                <li class="navbar-item">
+                    <a href="#about" aria-label="Navigates to About">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#resume" aria-label="Navigates to Resume">Resume</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" aria-label="Navigates to Contact">Contact Me</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="projects.html" aria-label="Navigates to Projects">Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" target="_blank" aria-label="Navigates to Download CV">Download CV <i class="fa-solid fa-download"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main body of page-->
+    <!--About section-->
+    <section id="about">
+        <div class="section-row">
+            <div class="section-column-side">
+                <img src="#" alt="Pirate dog logo">
+                <div class="personal-details">
+                    <p>Name: </p>
+                    <p>Sarah Collins</p>
+                </div>
+                <div class="personal-details">
+                  <p>Location: </p>
+                  <p>Kildare, Ireland</p>
+              </div>
+              <div class="personal-details">
+                <p>Email: </p>
+                <p>email@email.com</p>
+            </div>
+            </div>
+            <div class="section-column-main">
+                <h1>Sarah Collins</h1>
+                <h2>Full Stack Developer</h2>
+                <p>Short blurb here with some biographical details. Remember to include words like "passionate" and "hard working"</p>
+            </div>
+        </div>
+    </section>
+    <!--Resume section with work/education history-->
+    <section id="resume">
+        <div class="section-row">
+            <!--Sidebar for work and education history-->
+            <div class="section-column-side">
+                <h4>Work & Education</h4>
+            </div>
+            <!--Main section of resume with some blurbs about how great I am-->
+            <div class="section-column-main">
+                <h3>Skills</h3>
+                <div class="skills-details">
+                    <div class="skills-blurb">
+                          <h4>Front End</h4>
+                          <p>Paragraph of text describing my skills and interests in Front End.</p>
+                          <div class="project-langs">
+                            <p class="project-lang-title">Languages/Frameworks I use: </p>
+                            <p>list of languages</p>
+                          </div>
+                    </div>
+                    <div class="skills-blurb">
+                        <h4>Back End</h4>
+                        <p>Paragraph of text describing my skills and interests in Back End.</p>
+                        <div class="project-langs">
+                            <p class="project-lang-title">Languages/Frameworks I use: </p>
+                            <p>list of languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section with simple form-->
+    <section id="contact">
+        <div class="section-row">
+            <!--Email and social links-->
+            <div class="section-column-side">
+                <h4>Socials & Contact:</h4>
+                <div class="contact-details">
+                  <p>Email: </p>
+                  <p>email@email.com</p>
+                </div>
+                <div class="contact-details">
+                    <a href="#" target="_blank" aria-label="Navigates to LinkedIn in new tab">LinkedIn</a>
+                </div>
+                <div class="contact-details">
+                    <a href="#" target="_blank" aria-label="Navigates to LinkedIn in new tab">LinkedIn</a>
+                </div>
+            </div>
+            <!--Main contact section with contact form-->
+            <div class="section-column-main">
+                <h3>Want to work together?</h3>
+                <h4>Reach out below:</h4>
+                <!--Contact form-->
+                <form>
+                    <input type="text" name="name" id="fullname" class="form-input" placeholder="Your name" required>
+                    <input type="email" name="email" id="emailaddress" class="form-input" placeholder="Your email" required>
+                    <textarea rows="4" name="message" id="message" class="form-input" placeholder="Have a question? A project? Let me know." required></textarea>
+                    <div class="center-button">
+                        <button type="submit" class="button-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Footer with CV download and socials-->
+    <footer>
+        <div class="footer-details">
+            <h4 class="footer-heading">About</h4>
+            <p>Brief recap of bio</p>
+            <p>Link to download CV again: </p>
+            <a href="#" target="_blank" aria-label="Opens new tab to CV"><i class="fa fa-download"></i></a>
+        </div>
+        <div class="footer-details">
+            <h4 class="footer-heading">Socials</h4>
+            <ul class="footer-socials">
+                <li class="social-links">
+                    <a href="#" aria-label="Navigates to LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="social-links">
+                    <a href="#" aria-label="Navigates to GitHub"><i class="fa-brands fa-square-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/17ece91ea9.js" crossorigin="anonymous"></script>
+</body>
+</html>
