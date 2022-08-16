@@ -13,50 +13,52 @@
 <body>
   <!--Header containing logo and navbar-->
     <header>
-        <nav id="navbar">
+        <nav id="navbar" class="bookend-color">
             <a href="index.html" aria-label="Logo, navigates to index page"><img src="#" alt="Portfolio logo of pirate dog"></a>
             <ul id="navbar-list">
                 <li class="navbar-item">
-                    <a href="#about" aria-label="Navigates to About">About</a>
+                    <a class="button-style" href="#about" aria-label="Navigates to About">About</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#resume" aria-label="Navigates to Resume">Resume</a>
+                    <a class="button-style" href="#resume" aria-label="Navigates to Resume">Resume</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#contact" aria-label="Navigates to Contact">Contact Me</a>
+                    <a class="button-style" href="#contact" aria-label="Navigates to Contact">Contact Me</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="projects.html" aria-label="Navigates to Projects">Projects</a>
+                    <a class="button-style" href="projects.html" aria-label="Navigates to Projects">Projects</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" target="_blank" aria-label="Navigates to Download CV">Download CV <i class="fa-solid fa-download"></i></a>
+                    <a class="button-style" href="#" target="_blank" aria-label="Navigates to Download CV">Download CV <i class="fa-solid fa-download"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
     <!--Main body of page-->
     <!--About section-->
-    <section id="about">
+    <section id="about" class="about-color">
         <div class="section-row">
             <div class="section-column-side">
-                <img src="#" alt="Pirate dog logo">
+                <img class="side-logo" src="#" alt="Pirate dog logo">
                 <div class="personal-details">
-                    <p>Name: </p>
+                    <p class="bold-upper">Name: </p>
                     <p>Sarah Collins</p>
                 </div>
                 <div class="personal-details">
-                  <p>Location: </p>
+                  <p class="bold-upper">Location: </p>
                   <p>Kildare, Ireland</p>
               </div>
               <div class="personal-details">
-                <p>Email: </p>
+                <p class="bold-upper">Email: </p>
                 <p>email@email.com</p>
             </div>
             </div>
             <div class="section-column-main">
-                <h1>Sarah Collins</h1>
-                <h2>Full Stack Developer</h2>
-                <p>Short blurb here with some biographical details. Remember to include words like "passionate" and "hard working"</p>
+                <div class="intro">
+                    <h1 class="about-title">Sarah Collins</h1>
+                    <h2 class="about-subtitle">Full Stack Developer</h2>
+                    <p class="about-blurb">Short blurb here with some biographical details. Remember to include words like "passionate" and "hard working"</p>
+                </div>
             </div>
         </div>
     </section>
@@ -64,15 +66,15 @@
     <section id="resume">
         <div class="section-row">
             <!--Sidebar for work and education history-->
-            <div class="section-column-side">
-                <h4>Work & Education</h4>
+            <div class="section-column-side column-color">
+                <h4 class="sub-heading">Work & Education</h4>
             </div>
             <!--Main section of resume with some blurbs about how great I am-->
-            <div class="section-column-main">
-                <h3>Skills</h3>
+            <div class="section-column-main main-color">
+                <h3 class="main-heading">Skills</h3>
                 <div class="skills-details">
                     <div class="skills-blurb">
-                          <h4>Front End</h4>
+                          <h4 class="sub-heading">Front End</h4>
                           <p>Paragraph of text describing my skills and interests in Front End.</p>
                           <div class="project-langs">
                             <p class="project-lang-title">Languages/Frameworks I use: </p>
@@ -80,7 +82,7 @@
                           </div>
                     </div>
                     <div class="skills-blurb">
-                        <h4>Back End</h4>
+                        <h4 class="sub-heading">Back End</h4>
                         <p>Paragraph of text describing my skills and interests in Back End.</p>
                         <div class="project-langs">
                             <p class="project-lang-title">Languages/Frameworks I use: </p>
@@ -95,30 +97,30 @@
     <section id="contact">
         <div class="section-row">
             <!--Email and social links-->
-            <div class="section-column-side">
-                <h4>Socials & Contact:</h4>
+            <div class="section-column-side column-color">
+                <h4 class="sub-heading">Socials & Contact:</h4>
                 <div class="contact-details">
                   <p>Email: </p>
                   <p>email@email.com</p>
                 </div>
                 <div class="contact-details">
-                    <a href="#" target="_blank" aria-label="Navigates to LinkedIn in new tab">LinkedIn</a>
+                    <a class="button-style" href="#" target="_blank" aria-label="Navigates to LinkedIn in new tab">LinkedIn</a>
                 </div>
                 <div class="contact-details">
-                    <a href="#" target="_blank" aria-label="Navigates to LinkedIn in new tab">LinkedIn</a>
+                    <a class="button-style" href="#" target="_blank" aria-label="Navigates to GitHub in new tab">GitHub</a>
                 </div>
             </div>
             <!--Main contact section with contact form-->
-            <div class="section-column-main">
-                <h3>Want to work together?</h3>
-                <h4>Reach out below:</h4>
+            <div class="section-column-main main-color">
+                <h3 class="main-heading">Want to work together?</h3>
+                <h4 class="sub-heading">Reach out below:</h4>
                 <!--Contact form-->
                 <form>
                     <input type="text" name="name" id="fullname" class="form-input" placeholder="Your name" required>
                     <input type="email" name="email" id="emailaddress" class="form-input" placeholder="Your email" required>
                     <textarea rows="4" name="message" id="message" class="form-input" placeholder="Have a question? A project? Let me know." required></textarea>
                     <div class="center-button">
-                        <button type="submit" class="button-submit">Send Message</button>
+                        <button type="submit" class="button-style">Send Message</button>
                     </div>
                 </form>
             </div>
@@ -126,7 +128,7 @@
     </section>
     <!--Footer with CV download and socials-->
     <footer>
-        <div class="footer-details">
+        <div class="footer-details bookend-color">
             <h4 class="footer-heading">About</h4>
             <p>Brief recap of bio</p>
             <p>Link to download CV again: </p>
